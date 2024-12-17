@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt update && sudo apt upgrade -y
 
-mkdir ~/github
+mkdir -p ~/github
 
 ## System Packages / Dependencies
 sudo apt install policykit-1-gnome network-manager-gnome network-manager libgtk-layer-shell-dev -y
