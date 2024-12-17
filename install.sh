@@ -14,7 +14,7 @@ sudo apt install sway wayland-protocols wayland-utils wl-clipboard xdg-desktop-p
 
 clear
 ## User Packages
-sudo apt install waybar wofi mako-notifier grim slurp udiskie feh firefox-esr curl unzip -y
+sudo apt install waybar wofi mako-notifier grim slurp udiskie feh firefox-esr curl unzip qimgv -y
 ## Fonts
 sudo apt install fonts-font-awesome fonts-recommended fonts-terminus
 
