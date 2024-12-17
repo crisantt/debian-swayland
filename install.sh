@@ -15,7 +15,7 @@ sudo apt install pamixer pavucontrol pulsemixer xdotool -y
 
 clear
 ## User Packages
-sudo apt install waybar rofi grim slurp udiskie feh firefox-esr curl unzip qimgv -y
+sudo apt install waybar wofi grim slurp udiskie feh firefox-esr curl unzip qimgv -y
 ## Fonts
 sudo apt install fonts-font-awesome fonts-recommended fonts-terminus
 
