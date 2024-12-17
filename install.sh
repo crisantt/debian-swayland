@@ -10,11 +10,12 @@ sudo apt install git build-essential -y
 clear
 
 ## Window Manager
-sudo apt install sway wayland-protocols wayland-utils wl-clipboard xdg-desktop-portal-wlr libwlroots-dev xwayland qtwayland5 pamixer pavucontrol pulsemixer xdotool -y
+sudo apt install sway sway-notification-center wayland-protocols wayland-utils wl-clipboard xdg-desktop-portal-wlr libwlroots-dev xwayland qtwayland5 -y 
+sudo apt install pamixer pavucontrol pulsemixer xdotool -y
 
 clear
 ## User Packages
-sudo apt install waybar wofi mako-notifier grim slurp udiskie feh firefox-esr curl unzip qimgv -y
+sudo apt install waybar wofi grim slurp udiskie feh firefox-esr curl unzip qimgv -y
 ## Fonts
 sudo apt install fonts-font-awesome fonts-recommended fonts-terminus
 
