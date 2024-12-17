@@ -6,8 +6,10 @@ mkdir ~/github
 ## System Packages / Dependencies
 sudo apt install policykit-1-gnome network-manager-gnome network-manager libgtk-layer-shell-dev -y
 sudo apt install git build-essential -y
+
 clear
 
+## Window Manager
 sudo apt install sway wayland-protocols wayland-utils wl-clipboard xdg-desktop-portal-wlr libwlroots-dev xwayland qtwayland5 -y
 
 clear
@@ -28,3 +30,5 @@ sudo systemctl enable ly
 clear
 
 cd --
+
+echo "DONE!!"
