@@ -31,4 +31,5 @@ clear
 
 cd --
 
+xdg-user-dirs-update
 echo "DONE!!"
