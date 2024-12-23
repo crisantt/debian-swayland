@@ -47,6 +47,10 @@ libgtk-layer-shell-dev \
 libnotify-bin \
 libnotify-dev -y
 
+# User Packages
+sudo apt install waybar pamixer pavucontrol pulsemixer xdotool wofi grim slurp udiskie feh firefox-esr curl unzip qimgv -y
+
+
 
 mkdir -p ~/github cd ~/github
 git clone https://gitlab.freedesktop.org/wlroots/wlroots.git
