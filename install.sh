@@ -21,17 +21,6 @@ sudo apt install fonts-font-awesome fonts-recommended fonts-terminus
 
 clear
 
-## ly (Log in Manager?? Dunno what to call it)
-sudo apt install libpam0g-dev libxcb-xkb-dev
-cd ~/github
-git clone --recurse-submodules https://github.com/fairyglade/ly
-cd ly
-make
-sudo make install installsystemd
-sudo systemctl enable ly
-
-clear
-
 cd --
 
 xdg-user-dirs-update
