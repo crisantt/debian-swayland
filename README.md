@@ -1,5 +1,11 @@
 # Debian Wayland Using Sway
 
+Install git first
+
+```
+sudo apt install git
+```
+
 ### Install Sway Using Debian Package Manager
 ```
 mkdir -p ~/github && cd ~/github
