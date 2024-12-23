@@ -9,3 +9,8 @@ sudo apt install \
   libgdk-pixbuf2.0-dev \
   scdoc \
   git
+git clone https://github.com/swaywm/sway.git
+cd sway
+meson build/
+ninja -C build/
+sudo ninja -C build/ install
