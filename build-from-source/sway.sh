@@ -1,5 +1,8 @@
+#!/bin/bash
+
+# Source Dependencies
 sudo apt build-dep sway
-apt install glslang-tools \
+sudo apt install glslang-tools \
 libcairo2-dev \
 libcap-dev \
 libdbus-1-dev \
@@ -26,7 +29,24 @@ pkgconf \
 scdoc \
 tree \
 wayland-protocols \
-wayland
+wayland \
+git \
+build-essential -y
+
+# Sway Packages
+sudo apt install sway-notification-center \
+wayland-utils \
+wl-clipboard \
+xdg-desktop-portal-wlr \
+xwayland \
+qtwayland5 \
+policykit-1-gnome \
+network-manager-gnome \
+network-manager \
+libgtk-layer-shell-dev \
+libnotify-bin \
+libnotify-dev -y
+
 
 mkdir -p ~/github cd ~/github
 git clone https://gitlab.freedesktop.org/wlroots/wlroots.git
@@ -42,4 +62,5 @@ ninja -C build/
 sudo ninja -C build/ install
 
 cd ~/
+xdg-user-dirs-update
 echo "DONE!!"
