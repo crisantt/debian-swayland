@@ -7,6 +7,5 @@ sudo apt install \
   libpango1.0-dev \
   libcairo2-dev \
   libgdk-pixbuf2.0-dev \
-  swaybg \
   scdoc \
   git
