@@ -31,9 +31,16 @@ sudo apt install firefox-esr \
 qimgv \
 grim \
 slurp \
-udiskie \
+udiskie -y
+
+# Dev Tools
+sudo apt install make \
+cmake \
+ninja-build \
+unzip \
 mtools \
-unzip -y
+clangd \
+tar -y
 
 # Audio Packages
 sudo apt install pavucontrol \
