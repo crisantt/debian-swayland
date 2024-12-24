@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt update && sudo apt upgrade -y
+
 # For Sway
 sudo apt install sway \
 build-essential \
