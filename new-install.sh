@@ -20,6 +20,10 @@ wl-clipboard \
 xdg-desktop-portal-wlr \
 libwlroots-dev \
 xwayland \
+mesa-vulkan-drivers \
+mesa-utils \
+wlr-randr \
+libinput10 \
 qtwayland5 -y
 
 # Packages That I Use
@@ -47,5 +51,10 @@ fonts-noto-color-emoji \
 fonts-hack-ttf -y
 
 xdg-user-dirs-update
+
+echo "export MOZ_ENABLE_WAYLAND=1" >> ~/.bashrc
+echo "export QT_QPA_PLATFORM=wayland" >> ~/.bashrc
+echo "export XDG_SESSION_TYPE=wayland" >> ~/.bashrc
+echo "export XDG_CURRENT_DESKTOP=sway # Replace with your compositor name" >> ~/.bashrc
 
 echo "DONE!!!"
