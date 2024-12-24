@@ -36,3 +36,5 @@ pamixer \
 pulsemixer -y
 
 xdg-user-dirs-update
+
+echo "DONE!!!"
