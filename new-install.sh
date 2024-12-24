@@ -35,6 +35,16 @@ sudo apt install pavucontrol \
 pamixer \
 pulsemixer -y
 
+# Fonts
+sudo apt install lxappearance \
+fonts-recommended \
+fonts-dejavu \
+fonts-font-awesome \
+fonts-noto-core \
+fonts-noto-cjk \
+fonts-noto-color-emoji \
+fonts-hack-ttf -y
+
 xdg-user-dirs-update
 
 echo "DONE!!!"
