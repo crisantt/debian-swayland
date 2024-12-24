@@ -3,7 +3,7 @@
 # For Sway
 sudo apt install sway \
 build-essential \
-waybar \ 
+waybar \
 sway-notification-center \
 libnotify-bin \
 libnotify-dev \
@@ -22,7 +22,7 @@ xwayland \
 qtwayland5 -y
 
 # Packages That I Use
-sudo apt install firefox-esr \ 
+sudo apt install firefox-esr \
 qimgv \
 grim \
 slurp \
