@@ -55,6 +55,6 @@ xdg-user-dirs-update
 echo "export MOZ_ENABLE_WAYLAND=1" >> ~/.bashrc
 echo "export QT_QPA_PLATFORM=wayland" >> ~/.bashrc
 echo "export XDG_SESSION_TYPE=wayland" >> ~/.bashrc
-echo "export XDG_CURRENT_DESKTOP=sway # Replace with your compositor name" >> ~/.bashrc
+echo "export XDG_CURRENT_DESKTOP=sway" >> ~/.bashrc
 
 echo "DONE!!!"
