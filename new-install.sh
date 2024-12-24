@@ -10,6 +10,7 @@ libnotify-dev \
 policykit-1-gnome \
 network-manager-gnome \
 network-manager \
+intel-microcode \
 libgtk-layer-shell-dev -y
 
 # Wayland Packages
