@@ -58,6 +58,13 @@ fonts-noto-core \
 fonts-noto-cjk \
 fonts-noto-color-emoji \
 fonts-hack-ttf -y
+fonts=("JetBrainsMono" "FiraCode" "Hack" "Mononoki" "Monaspice" "Ubuntu")
+for font in "${fonts[@]}"; do
+  wget -q --show-progress "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/$font.zip" -P ~/.fonts
+  unzip -q -o ~/.fonts/$font.zip -d ~/.fonts/$font/
+done
+fc-cache -fv
+echo "DONE WITH THE FONTS!!!!!"
 
 xdg-user-dirs-update
 
